@@ -47,7 +47,7 @@
     <!-- lockscreen credentials (contains the form) -->
     <form  action="" class="lockscreen-credentials" name="formulario" id="formulario" method="POST">
       <div class="input-group">
-        <input type="password" class="form-control" name="codigo_persona" id="codigo_persona" placeholder="ID de asistencia">
+        <input type="password" class="form-control" name="codigo_persona" id="codigo_persona" placeholder="CEDULA DE IDENTIDAD">
 
         <div class="input-group-btn">
           <button type="submit" class="btn btn-primary"><i class="fa fa-arrow-right text-muted"></i></button>
@@ -59,7 +59,7 @@
   </div>
   <!-- /.lockscreen-item -->
   <div class="help-block text-center">
-    Ingresa tu ID de asistencia
+    Ingresa tu CEDULA DE IDENTIDAD
   </div>
   <div class="text-center">
 
