@@ -27,12 +27,12 @@ switch ($_GET["op"]) {
                 $tipo = "Entrada";
         		$rspta=$asistencia->registrar_entrada($codigo_persona,$tipo);
     			//$movimiento = 0;
-    			echo $rspta ? '<h3><strong>Nombres: </strong> '. $result['nombre'].' '.$result['apellidos'].'</h3><div class="alert alert-success"> Ingreso registrado '.$hora.'</div>' : 'No se pudo registrar el ingreso';
+    			echo $rspta ? '<h3 style="color:#FFFFFF;"><strong>Nombres: </strong> '. $result['nombre'].' '.$result['apellidos'].'</h3><div class="alert alert-success"> Ingreso registrado '.$hora.'</div>' : 'No se pudo registrar el ingreso';
    		  }else{ 
                 $tipo = "Salida";
          		$rspta=$asistencia->registrar_salida($codigo_persona,$tipo);
      			//$movimiento = 1;
-     			echo $rspta ? '<h3><strong>Nombres: </strong> '. $result['nombre'].' '.$result['apellidos'].'</h3><div class="alert alert-danger"> Salida registrada '.$hora.'</div>' : 'No se pudo registrar la salida';             
+     			echo $rspta ? '<h3 style="color:#FFFFFF;"><strong>Nombres: </strong> '. $result['nombre'].' '.$result['apellidos'].'</h3><div class="alert alert-danger"> Salida registrada '.$hora.'</div>' : 'No se pudo registrar la salida';             
         } 
         } else {
 		         echo '<div class="alert alert-danger">
