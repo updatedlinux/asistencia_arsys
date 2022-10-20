@@ -79,7 +79,7 @@ require_once('../modelos/Usuario.php');
   <div class="small-box bg-orange">
     <div class="inner">
       <h4 style="font-size: 20px;">
-        <strong>Empleados:   </strong>
+        <strong>Esclavos:   </strong>
       </h4>
       <p>Total <?php echo $reg->nombre; ?></p>
     </div>
